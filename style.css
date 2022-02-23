@@ -1,0 +1,27 @@
+html,body {
+    height: 90%;
+}
+table {
+    width: 100%;            
+}      
+h1 {
+    text-align: center;            
+}
+#top {
+    background-color: rgb(214, 61, 55);          
+}         
+#main {
+    height: 100%;
+    background-color: rgb(240, 162, 16);
+}       
+#menu {
+    border-right-style:dashed;
+    border-right-color:rgb(214, 61, 55);
+}
+#name {
+    vertical-align: bottom;
+    text-align: center;
+}
+#con1 {
+    float: right;
+}

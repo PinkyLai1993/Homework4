@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="填寫入團申請資訊">
+    <title>草帽海賊團-入團申請</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <table id="top">      
+        <tr><td><h1><img src="img/luffy2.png" width="60">入團申請</h1></td></tr>
+    </table>
+    <table id="main">        
+        <tr>
+            <td id="menu" width="200" align="center" valign="top">
+                <p><a href="index.html">首頁</a></p>
+                <p><a href="captain.html">關於船長</a></p>
+                <p><a href="member.html">團員一覽</a></p>
+                <p><a href="enemy.html">敵人一覽</a></p>                
+            </td>
+            <td valign="top">
+                <form>
+                    <table>
+                        <tr>
+                            <td>
+                                <p id="con1">姓名：</p>
+                            </td>
+                            <td>
+                                <input type="text" name="nickname">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p id="con1">性別：</p>
+                            </td>
+                            <td>
+                                <input type="radio" name="sex" value="1">男
+                                <input type="radio" name="sex" value="2">女
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p id="con1">興趣：</p>
+                            </td>
+                            <td>
+                                <input type="checkbox" name="inst" value="1">吃飯
+                                <input type="checkbox" name="inst" value="2">睡覺
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p id="con1">出身：</p>
+                            </td>
+                            <td>
+                                <select name="contry">
+                                    <option>--請選擇--</option>
+                                    <option value="T">東方藍</option>
+                                    <option value="C">西方藍</option>
+                                    <option value="J">南方藍</option>
+                                    <option value="J">北方藍</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p id="con1">其他：</p>
+                            </td>
+                            <td>
+                                <textarea name="msg" rows="5" cols="20">能力：
+賞金：
+聯絡方式：</textarea>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td>
+                                <input type="reset" value="清除">
+                                <input type="submit" value="送出">
+                            </td>
+                        </tr>
+                    </table>
+                </form>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
